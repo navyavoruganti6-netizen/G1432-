@@ -1,12 +1,39 @@
 .venv/
+# Python
 __pycache__/
 *.pyc
-runs/
+.venv/
+venv/
+venv312/
+
+# YOLO / model files
 *.pt
 *.onnx
+pose_landmarker_full.task
 
-badminton-singles-players-4/
-badminton-singles-players-5/
+# Generated / training folders
+runs/
 frames/
 results/
 video/
+footwork_frames/
+Frames/
+position_frames/
+processed_frames/
+
+# Local datasets
+badminton-singles-players-4/
+badminton-singles-players-5/
+Badminton Footwork Detection.v3i.yolov8/
+
+# Generated media
+*.mp4
+*.jpg
+*.jpeg
+*.png
+
+# Generated data
+*.csv
+
+# Other local files
+error.txt
