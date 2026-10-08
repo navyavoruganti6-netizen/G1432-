@@ -1,0 +1,23 @@
+.venv/
+venv312/
+__pycache__/
+
+footwork_frames/
+Frames/
+position_frames/
+processed_frames/
+
+Badminton Footwork Detection.v3i.yolov8/
+
+*.mp4
+*.jpg
+*.jpeg
+*.png
+
+yolo11n.pt
+pose_landmarker_full.task
+
+*.csv
+*.txt
+
+error.txt
